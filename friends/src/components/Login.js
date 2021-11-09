@@ -1,4 +1,4 @@
-import React, { useHistory } from 'react';
+import React from 'react';
 
 import axios from 'axios';
 
