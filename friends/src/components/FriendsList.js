@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import axiosWithAuth from '../utils/axiosWithAuth';
 
@@ -29,7 +30,7 @@ class FriendsList extends React.Component {
                 {this.state.friends.map(f => {
                     return <h3>{f.name}</h3>
                 })}
-
+            <Link to='/newfriend'>Add a friend</Link>
             </div>
         )
     }
